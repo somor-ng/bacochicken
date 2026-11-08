@@ -1,0 +1,4 @@
+{
+  "parent": "item/generated",
+  "textures": { "layer0": "baconchicken:item/bacon_and_chicken" }
+}

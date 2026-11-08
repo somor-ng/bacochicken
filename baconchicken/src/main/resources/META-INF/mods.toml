@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="baconchicken"
+version="${mod_version}"
+displayName="Bacon and Chicken (Farmer's Delight Addon)"
+description='''Adds the Bacon and Chicken meal: restores full health, Regeneration + Strength.'''
+
+[[dependencies.baconchicken]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.baconchicken]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.baconchicken]]
+modId="farmersdelight"
+mandatory=true
+versionRange="[1.20.1-1.2.0,)"
+ordering="AFTER"
+side="BOTH"
